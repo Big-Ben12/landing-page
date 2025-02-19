@@ -37,7 +37,7 @@ body {
 }
 
 .hero-content {
-    max-width: 30%;
+    max-width: 40%;
 }
 
 .hero-title {
@@ -51,6 +51,47 @@ body {
     font-size: 18px;
 }
 
+.hero-image {
+    max-width: 100%;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 250px;
+
+}
+
+/* Information Section */
+.info {
+    text-align: center;
+}
+
+.info-heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.info-box img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.info-text {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
 
 
 
